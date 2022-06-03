@@ -34,9 +34,13 @@ form input {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
+form input:hover {
+  background-color: lightgray;
+}
 .input_container {
   margin-bottom: 20px;
 }
+
 .btn_container {
   text-align: center;
   margin-bottom: 10px;
@@ -53,6 +57,9 @@ form input {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
+.btn_container button:hover {
+  background-color: darkgray;
+}
 
 .milestone_container {
   width: 50%;
@@ -68,6 +75,14 @@ form input {
   align-items: center;
   box-shadow: 1px 2px 10px #ddd;
 }
+
+.milestone:hover {
+  background-color: lightgray;
+}
+
+.milestone:focus {
+  background-color: white;
+}
 .milestone input {
   cursor: pointer;
   width: 50%;
@@ -78,6 +93,13 @@ form input {
   font-size: 28px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+}
+.milestone input:hover {
+  cursor: text;
+}
+
+.milestone input:focus {
+  color: red;
 }
 .button-complete,
 .button-delete,
